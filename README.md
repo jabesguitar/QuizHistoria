@@ -41,3 +41,16 @@ O APK será gerado em `app/build/outputs/apk/debug/app-debug.apk`.
 - O APK de depuração é apropriado para testes e instalação direta. Para distribuição pública, gere uma versão release assinada com uma chave própria.
 - O app é uma primeira versão funcional do jogo. Os mini jogos de caça-palavras e palavras cruzadas são atividades simplificadas; o caça-palavras marca a lista de termos e as palavras cruzadas são preenchidas por resposta textual, não por uma grade cruzada tradicional.
 - O conteúdo acompanha as páginas fotografadas; temas não visíveis no material enviado não foram acrescentados como conteúdo principal.
+
+
+## Atualização 1.1.0
+- Corrigida a abertura e a correspondência das cartas do jogo da memória.
+- Reformulado o Verdadeiro ou Falso: cada rodada apresenta uma pergunta histórica e uma resposta proposta para o aluno julgar.
+- Adicionadas trilhas instrumentais originais sintetizadas localmente para as telas, abas e minijogos, com reprodução/pausa, volume e mudo.
+- Mantidos efeitos sonoros de acerto e erro com controle independente.
+- Trilhas variam a sequência a cada entrada na tela e funcionam offline, sem arquivos externos de áudio.
+
+
+## Versão 1.2.0 — Ilustrações no resumo
+
+Foram adicionadas seis ilustrações originais, armazenadas localmente em `app/src/main/assets/images/`, nos tópicos de linha do tempo, Alta Idade Média, feudalismo e Baixa Idade Média. As ilustrações são recursos visuais didáticos, não fotografias documentais nem reproduções de imagens do livro.
